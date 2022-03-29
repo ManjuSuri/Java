@@ -11,7 +11,10 @@ public class ArrayListInJava {
 	    al2.add("nivi");
 	    al2.add(20.62);
 	    
-	    
+	    ArrayList al3=new ArrayList();
+	    al3.add("manju");
+	    al3.add("nivi");
+	    al3.add(20.62);
     ArrayList al=new ArrayList();
     al.add("arra");
     al.add("nini");
@@ -28,6 +31,7 @@ public class ArrayListInJava {
   al2.add(545);
   
   System.out.println(al);
+  System.out.println(al3);
   al.set(0, "arran");
   //al.removeAll(al2);
 //  System.out.println(al.lastIndexOf(20));
