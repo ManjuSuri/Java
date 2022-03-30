@@ -33,9 +33,17 @@ class Cc extends Bb{
 		System.out.println("Cc class 0 args constructor");
 	}
 }
-class Dd extends CC{
-	Cc(){
-		super(10);
+class Dd extends Cc{
+  Dd(){
+		super();
 		System.out.println("This class i have added to check git local");
 	}
 }
+     	
+
+  
+
+
+
+
+
