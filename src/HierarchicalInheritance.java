@@ -67,6 +67,7 @@ class Carrot extends Tomato{
 class Cauliflower extends Carrot{
     int demo3() {
 	int r=5;
+	   //int s;
 	System.out.println("carrot="+r);
 	return r;
 }
