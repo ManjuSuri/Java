@@ -6,7 +6,8 @@ public class methodInJava {
     MethodDemo md=new MethodDemo();
     int result=md.addTwoNumber(20, 30);
     int multresult=md.mult(6, 5);
-    System.out.println("add result="+result + " multres= "+multresult);
+    int divresult=md.div(50, 2);
+    System.out.println("add result="+result + " multres= "+multresult +"div=" +divresult);
     
 	}
 
@@ -19,5 +20,10 @@ class MethodDemo{
 	int mult(int a,int b) {
 		int c=a*b;
 		return c;
+	}
+	int div(int a,int b) {
+		int c=a/b;
+		return c;
+		
 	}
 }
